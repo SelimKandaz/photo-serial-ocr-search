@@ -35,3 +35,6 @@ private_photos/
 *.jpg
 *.jpeg
 *.png
+
+# Local generated database
+*.db
