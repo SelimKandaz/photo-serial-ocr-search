@@ -1,0 +1,9 @@
+# Core demo uses only the Python standard library.
+# Optional OCR features for src/photo_ocr_strict_search.py:
+pillow
+pytesseract
+pypdf
+pymupdf
+pillow-heif
+# Optional heavier OCR backend:
+# paddleocr

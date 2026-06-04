@@ -23,21 +23,25 @@ logs/
 *.log
 *.tmp
 
-# Editor / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Local generated database
+# Local generated databases
 *.db
 *.sqlite
 *.sqlite3
+photo_index.db*
+serial_ocr_demo.db*
 
 # Private media
 images/
 private_photos/
 *.heic
+*.heif
 *.jpg
 *.jpeg
 *.png
+*.pdf
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
