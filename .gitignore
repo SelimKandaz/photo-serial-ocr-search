@@ -29,12 +29,15 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Local generated database
+*.db
+*.sqlite
+*.sqlite3
+
+# Private media
 images/
 private_photos/
 *.heic
 *.jpg
 *.jpeg
 *.png
-
-# Local generated database
-*.db
